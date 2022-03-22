@@ -41,7 +41,7 @@ export default function PersonalTraitForm(props) {
     Perceivers: false,
   });
 
-  const [reg, setreg] = React.useState(props.data.age);
+  // const [reg, setreg] = React.useState(props.data.age);
 
   const handleInterested = (event) => {
     setInterested({ ...interested, [event.target.name]: event.target.checked });
