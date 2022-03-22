@@ -93,7 +93,7 @@ export default function GenerateInfo(props) {
               Recommended Courses
             </Typography>
             &nbsp;
-            {result == undefined ? (
+            {result === undefined ? (
               <div>
                 <Typography variant="subtitle1">
                   Sorry, you do not fulfil the requirement.If your grade above

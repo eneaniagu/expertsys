@@ -108,7 +108,7 @@ export default function GenerateInfo(props) {
   };
 
   const generateRuleBasedResult = (info) => {
-    if (info.grade == "3.0 - 3.5" || info.grade == "3.5 and above") {
+    if (info.grade === + "3.0 - 3.5" || info.grade === "3.5 and above") {
       // condition 1
       if (info.interested.includes("Business")) {
         // rule 1
@@ -225,7 +225,7 @@ export default function GenerateInfo(props) {
         }
       }
     }
-    if (info.grade == "3.5 and above" && info.stream == "Science") {
+    if (info.grade === "3.5 and above" && info.stream === "Science") {
       // condition 1
       if (info.interested.includes("Medical")) {
         if (

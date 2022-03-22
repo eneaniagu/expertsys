@@ -16,7 +16,7 @@ function App() {
   };
   return (
     <div className="App">
-      {showFinal != true && (
+      {showFinal !== true && (
         <InputForm callBack2={handleCallBack2} callBack={handleCallBack} />
       )}
       {showFinal && <FinalResult result={showFinal2} />}
