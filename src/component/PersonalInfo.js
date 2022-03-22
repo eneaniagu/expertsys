@@ -52,7 +52,7 @@ export default function PersonalForm(props) {
       gender: gender
     }
     props.callback(obj)
-  }, [firstName, lastName, age, gender])
+  }, [])
 
 
   return (

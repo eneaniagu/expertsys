@@ -39,7 +39,7 @@ export default function AcademicForm(props) {
       grade: grade
     }
     props.callback(obj)
-  }, [stream, grade])
+  }, [])
 
 
   return (

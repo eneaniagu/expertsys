@@ -65,7 +65,7 @@ export default function PersonalTraitForm(props) {
       }),
     };
     props.callback(obj);
-  }, [interested, personality]);
+  }, []);
 
   return (
     <React.Fragment>
